@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #ef5777;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 480px;
+    height: 460px;
+    padding: 100px;
+    transform: translate(-50%, -50%);
+    background-color: #3c40c6;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: -40px 0px 30px;
+    padding: 0;
+    color: #fbc531;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: 6px solid#1e272e;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+.login-box .login_ input {
+    position: relative;
+    display: inline-block;
+    padding: 10px 24px;
+    color: #fbc531;
+    background-color: #2d3436;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 30px;
+    margin-left: 32%;
+    margin-bottom: 20px;
+}
+
+.login-box a.link {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 16%;
+}
+
+.login-box a.link:link {
+    color: #fbc531;
+}
+
+.login-box a.link:visited {
+    color: #fbc531;
+}
+
+.login-box a.link:hover {
+    color: #2d3436;
+    text-decoration: underline;
+}
+
+.login-box a.link:active {
+    color: #55efc4;
+}
